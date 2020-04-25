@@ -1,0 +1,36 @@
+{
+  "name": "eslint-config-typescript-react-prettier",
+  "version": "1.0.0-beta.1",
+  "description": "ESLint config for react app using TypeScript and Prettier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neo/eslint-config-typescript-react-prettier.git"
+  },
+  "keywords": [
+    "eslint-config",
+    "typescript",
+    "prettier",
+    "react",
+    "react-app"
+  ],
+  "author": "Wenchen Li (https://github.com/neo)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neo/eslint-config-typescript-react-prettier/issues"
+  },
+  "homepage": "https://github.com/neo/eslint-config-typescript-react-prettier#readme",
+  "peerDependencies": {
+    "eslint": ">= 3"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "eslint-config-prettier": "latest",
+    "eslint-plugin-prettier": "latest",
+    "eslint-plugin-react-app": "latest"
+  }
+}
